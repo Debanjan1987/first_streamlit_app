@@ -41,7 +41,7 @@ try:
     else:
 #import requests
         back_from_function = get_fruityvice_data(fruit_choice)
-        treamlit.dataframe(back_from_function)
+        streamlit.dataframe(back_from_function)
     
       
 except URLError as e:
