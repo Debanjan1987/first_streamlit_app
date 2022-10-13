@@ -40,8 +40,8 @@ try:
         streamlit.error('Please select a fruit to get information')
     else:
 #import requests
-      back_from_function = get_fruityvice_data(fruit_choice)
-      treamlit.dataframe(back_from_function)
+        back_from_function = get_fruityvice_data(fruit_choice)
+        treamlit.dataframe(back_from_function)
     
       
 except URLError as e:
